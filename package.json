@@ -1,0 +1,21 @@
+{
+    "name": "marble-sort",
+    "version": "0.1.0",
+    "description": "Marble Sort: сортировка шариков, из которых собирается картинка",
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "tsc --noEmit && vite build",
+        "preview": "vite preview",
+        "typecheck": "tsc --noEmit",
+        "simulate": "node scripts/simulate.ts"
+    },
+    "dependencies": {
+        "phaser": "^4.2.1"
+    },
+    "devDependencies": {
+        "typescript": "^7.0.2",
+        "vite": "^8.3.5"
+    }
+}
